@@ -32,6 +32,6 @@ export default class EventsFetcher {
       }
     };
     return SeatGeekClient.getEvents(query)
-                         .then(events => EventsTranslator.translate(events));
+                         .then(events => console.log(events));
   }
 }
