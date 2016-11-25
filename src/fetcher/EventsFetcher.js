@@ -5,7 +5,7 @@ import {SeatGeekClient, FilterOption, Operator, SortOption, SortDirection} from 
 import EventsTranslator from '../translators/EventsTranslator';
 
 export default class EventsFetcher {
-  constructor() {}
+
   static fetchEventsByPopularityOrderedByLowestPriceGoodDeals(search) {
     let query = {
       venues: {
@@ -13,7 +13,7 @@ export default class EventsFetcher {
           cityName: search.cityName,
           stateCode: search.stateCode,
           countryCode: search.countryCode,
-        }
+        },
       },
       filters: [
         {
@@ -29,7 +29,7 @@ export default class EventsFetcher {
       pagination: {
         perPage: 100,
         page: 1
-      }
+      },
     };
     return SeatGeekClient.getEvents(query)
                          .then(events => EventsTranslator.translate(events));
