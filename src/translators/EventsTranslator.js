@@ -6,8 +6,7 @@ import EventDetails from '../data/EventDetails';
 import VenueDetails from '../data/VenueDetails'
 
 export default class EventsTranslator {
-  static transate(events) {
-    console.log(events);
+  static translate(events) {
     let translation = Map();
     events.forEach(function(event) {
       let venueDetails = new VenueDetails({
@@ -29,7 +28,7 @@ export default class EventsTranslator {
       translation = translation.set(event.id, eventDetails);
     });
     translation = translation.sortBy(function(value, key) {
-      return value.lowestPriceGoodDeals;
+      return -value.lowestPriceGoodDeals;
     });
     return translation;
   }
