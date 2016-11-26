@@ -11,10 +11,6 @@ export default class EventDetailsTableBuilder {
             'Max. Price'];
   }
 
-  static getColumnWidths() {
-    return [10, 20, 10, 20, 20, 30, 10, 10, 10];
-  }
-
   static buildTable(search) {
     return EventsFetcher.fetchEventsByPopularityOrderedByLowestPriceGoodDeals(search)
                         .then(details => console.log(EventDetailsTableBuilder.buildTableFromEventDetails(details).toString()));
@@ -23,7 +19,6 @@ export default class EventDetailsTableBuilder {
   static buildTableFromEventDetails(details) {
     let table = new Table({
       head: EventDetailsTableBuilder.getHeaders(),
-      colWidths: EventDetailsTableBuilder.getColumnWidths(),
       wordWrap: true,
     });
 
