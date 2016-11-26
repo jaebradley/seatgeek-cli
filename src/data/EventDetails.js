@@ -17,6 +17,7 @@ let defaults = {
   localDatetime: moment.utc()
                        .format('YYYY-MM-DDTHH:mm:ss'),
   venue: new VenueDetails(),
+  type: '',
 }
 
 export default class EventDetails extends Record(defaults){

@@ -26,12 +26,10 @@ export default class EventsFetcher {
         option: SortOption.SCORE,
         direction: SortDirection.DESCENDING,
       },
-      pagination: {
-        perPage: 100,
-        page: 1
-      },
+      perPage: 100,
+      page: 1,
     };
     return SeatGeekClient.getEvents(query)
-                         .then(events => EventsTranslator.translate(events));
+                         .then(events => EventsTranslator.translate(events.events));
   }
 }

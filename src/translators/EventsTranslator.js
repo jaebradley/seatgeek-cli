@@ -11,8 +11,8 @@ export default class EventsTranslator {
     events.forEach(function(event) {
       let venueDetails = new VenueDetails({
         name: event.venue.name,
-        extendedAddress: event.venue.extendedAddress,
-        streetAddress: event.address,
+        extendedAddress: event.venue.extended_address,
+        streetAddress: event.venue.address,
       });
       let eventDetails = new EventDetails({
         id: event.id,
@@ -24,6 +24,7 @@ export default class EventsTranslator {
         score: event.score * 100,
         localDatetime: event.datetime_local,
         venue: venueDetails,
+        type: event.type,
       });
       translation = translation.set(event.id, eventDetails);
     });
