@@ -12,8 +12,10 @@
   },
   "author": "Jae Bradley",
   "license": "MIT",
-  "preferGlobal": false,
-  "main": "./build/index.js",
+  "preferGlobal": true,
+  "bin": {
+    "sg": "build/index.js"
+  },
   "dependencies": {
     "commander": "2.9.0",
     "cli-table2": "0.2.0",
