@@ -22,7 +22,7 @@ export default class EventsTranslator {
           lowestPrice: event.stats.lowest_price,
           highestPrice: event.stats.highest_price,
           title: event.title,
-          score: event.score * 100,
+          score: (event.score * 100).toFixed(1),
           localDatetime: event.datetime_local,
           venue: venueDetails,
           type: event.type,

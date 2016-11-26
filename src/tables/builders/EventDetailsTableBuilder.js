@@ -24,7 +24,7 @@ export default class EventDetailsTableBuilder {
     let table = new Table({
       head: EventDetailsTableBuilder.getHeaders(),
       colWidths: EventDetailsTableBuilder.getColumnWidths(),
-      wordWrap:true,
+      wordWrap: true,
     });
 
     details.forEach(function(detail) {
