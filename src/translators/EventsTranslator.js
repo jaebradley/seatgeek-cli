@@ -29,7 +29,7 @@ export default class EventsTranslator {
       translation = translation.set(event.id, eventDetails);
     });
     translation = translation.sortBy(function(value, key) {
-      return -value.lowestPriceGoodDeals;
+      return value.lowestPriceGoodDeals;
     });
     return translation;
   }
