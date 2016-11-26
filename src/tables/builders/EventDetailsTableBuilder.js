@@ -12,8 +12,8 @@ export default class EventDetailsTableBuilder {
   }
 
   static buildTable(search) {
-    let details = EventsFetcher.fetchEventsByPopularityOrderedByLowestPriceGoodDeals(search);
-    console.log(EventDetailsTableBuilder.buildTableFromEventDetails(details));
+    return EventsFetcher.fetchEventsByPopularityOrderedByLowestPriceGoodDeals(search)
+                        .then(details => console.log(EventDetailsTableBuilder.buildTableFromEventDetails(details).toString()));
   }
 
   static buildTableFromEventDetails(details) {
