@@ -12,7 +12,7 @@ export default class EventDetailsTableBuilder {
   }
 
   static getColumnWidths() {
-    return [10, 50, 10, 20, 20, 30, 10, 10, 10];
+    return [10, 20, 10, 20, 20, 30, 10, 10, 10];
   }
 
   static buildTable(search) {
