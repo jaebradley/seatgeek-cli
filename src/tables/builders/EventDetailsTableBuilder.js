@@ -1,6 +1,7 @@
 'use es6';
 
 import Table from 'cli-table2';
+import moment from 'moment';
 
 import EventsFetcher from '../../fetcher/EventsFetcher';
 
@@ -35,7 +36,7 @@ export default class EventDetailsTableBuilder {
       detail.title,
       `$${detail.lowestPriceGoodDeals.toLocaleString()}`,
       (detail.score * 100).toFixed(1),
-      detail.localDatetime,
+      moment(detail.localDatetime, 'YYYY-MM-DDTHH:mm:ss').format('M/D/YY h:mm A'),
       `${detail.venue.name} ${detail.venue.streetAddress} ${detail.venue.extendedAddress}`,
       `$${detail.averagePrice.toLocaleString()}`,
       `$${detail.lowestPrice.toLocaleString()}`,
