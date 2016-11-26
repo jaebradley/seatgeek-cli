@@ -1,0 +1,1771 @@
+{
+  "meta": {
+    "per_page": 10,
+    "total": 146,
+    "page": 1,
+    "took": 3,
+    "geolocation": null
+  },
+  "events": [
+    {
+      "links": [],
+      "id": 3475710,
+      "stats": {
+        "listing_count": 4276,
+        "average_price": 97,
+        "lowest_price_good_deals": 26,
+        "lowest_price": 26,
+        "highest_price": 5544
+      },
+      "title": "Toronto Raptors at Boston Celtics",
+      "announce_date": "2016-08-12T00:00:00",
+      "score": 0.807952,
+      "date_tbd": false,
+      "type": "nba",
+      "datetime_local": "2017-02-01T19:30:00",
+      "visible_until_utc": "2017-02-02T04:30:00",
+      "time_tbd": false,
+      "taxonomies": [
+        {
+          "parent_id": null,
+          "id": 1000000,
+          "name": "sports"
+        },
+        {
+          "parent_id": 1000000,
+          "id": 1030000,
+          "name": "basketball"
+        },
+        {
+          "parent_id": 1030000,
+          "id": 1030100,
+          "name": "nba"
+        }
+      ],
+      "performers": [
+        {
+          "image": "https://chairnerd.global.ssl.fastly.net/images/performers-landscape/boston-celtics-4d3c16/2088/huge.jpg",
+          "primary": true,
+          "images": {
+            "huge": "https://chairnerd.global.ssl.fastly.net/images/performers-landscape/boston-celtics-4d3c16/2088/huge.jpg"
+          },
+          "has_upcoming_events": true,
+          "id": 2088,
+          "stats": {
+            "event_count": 67
+          },
+          "image_license": null,
+          "score": 0.742893,
+          "taxonomies": [
+            {
+              "parent_id": null,
+              "id": 1000000,
+              "name": "sports"
+            },
+            {
+              "parent_id": 1000000,
+              "id": 1030000,
+              "name": "basketball"
+            },
+            {
+              "parent_id": 1030000,
+              "id": 1030100,
+              "name": "nba"
+            }
+          ],
+          "type": "nba",
+          "short_name": "Celtics",
+          "home_venue_id": 1544,
+          "slug": "boston-celtics",
+          "divisions": [
+            {
+              "display_name": "Eastern Conference",
+              "short_name": null,
+              "division_level": 1,
+              "display_type": "Conference",
+              "taxonomy_id": 1030100,
+              "slug": null
+            },
+            {
+              "display_name": "Eastern - Atlantic",
+              "short_name": "Atlantic",
+              "division_level": 2,
+              "display_type": "Division",
+              "taxonomy_id": 1030100,
+              "slug": "eastern-atlantic"
+            }
+          ],
+          "home_team": true,
+          "name": "Boston Celtics",
+          "url": "https://seatgeek.com/boston-celtics-tickets",
+          "image_attribution": "https://commons.wikimedia.org/wiki/Category:2013%E2%80%9314_Boston_Celtics_season#/media/File:NBA_-_February_2014_-_Celtics_vs_Spurs_-_TD_Garden_-_2.JPG"
+        },
+        {
+          "image": "https://chairnerd.global.ssl.fastly.net/images/performers-landscape/toronto-raptors-3370da/2092/huge.jpg",
+          "images": {
+            "huge": "https://chairnerd.global.ssl.fastly.net/images/performers-landscape/toronto-raptors-3370da/2092/huge.jpg"
+          },
+          "has_upcoming_events": true,
+          "id": 2092,
+          "away_team": true,
+          "stats": {
+            "event_count": 67
+          },
+          "image_license": null,
+          "score": 0.697622,
+          "taxonomies": [
+            {
+              "parent_id": null,
+              "id": 1000000,
+              "name": "sports"
+            },
+            {
+              "parent_id": 1000000,
+              "id": 1030000,
+              "name": "basketball"
+            },
+            {
+              "parent_id": 1030000,
+              "id": 1030100,
+              "name": "nba"
+            }
+          ],
+          "type": "nba",
+          "short_name": "Raptors",
+          "home_venue_id": 91,
+          "slug": "toronto-raptors",
+          "divisions": [
+            {
+              "display_name": "Eastern Conference",
+              "short_name": null,
+              "division_level": 1,
+              "display_type": "Conference",
+              "taxonomy_id": 1030100,
+              "slug": null
+            },
+            {
+              "display_name": "Eastern - Atlantic",
+              "short_name": "Atlantic",
+              "division_level": 2,
+              "display_type": "Division",
+              "taxonomy_id": 1030100,
+              "slug": "eastern-atlantic"
+            }
+          ],
+          "name": "Toronto Raptors",
+          "url": "https://seatgeek.com/toronto-raptors-tickets",
+          "image_attribution": "https://www.flickr.com/photos/bensonkua/4503558956/in/photolist-7RXVbd-8SVJzz-rb2EGW-qvPxZz-rsAXdr-dx82Am-rb2Dzq-dz2b1K-dx82qQ-dz7DvY-qvBERL-rqjmQd-dz2aJc-dx82wb-dx2xAv-rsurhx-5QyEeU-8Um3TM-6rZgch-hKzCNb-hKzh3q-5Qunwx-8SVWPT-hKzhdW-5nQ7Jt-8qGb4-8SVWg8-4oH"
+        }
+      ],
+      "url": "https://seatgeek.com/raptors-at-celtics-tickets/2-1-2017-boston-massachusetts-td-garden/nba/3475710",
+      "created_at": "2016-08-12T00:00:00",
+      "venue": {
+        "city": "Boston",
+        "name": "TD Garden",
+        "extended_address": "Boston, MA 02114",
+        "url": "https://seatgeek.com/venues/td-garden/tickets",
+        "country": "US",
+        "display_location": "Boston, MA",
+        "links": [],
+        "slug": "td-garden",
+        "state": "MA",
+        "score": 0.853137,
+        "postal_code": "02114",
+        "location": {
+          "lat": 42.3653,
+          "lon": -71.0618
+        },
+        "address": "100 Legends Way",
+        "timezone": "America/New_York",
+        "id": 1544
+      },
+      "short_title": "Raptors at Celtics",
+      "datetime_utc": "2017-02-02T00:30:00",
+      "datetime_tbd": false
+    },
+    {
+      "links": [],
+      "id": 3475715,
+      "stats": {
+        "listing_count": 4600,
+        "average_price": 84,
+        "lowest_price_good_deals": 23,
+        "lowest_price": 23,
+        "highest_price": 5544
+      },
+      "title": "Detroit Pistons at Boston Celtics",
+      "announce_date": "2016-08-12T00:00:00",
+      "score": 0.801566,
+      "date_tbd": false,
+      "type": "nba",
+      "datetime_local": "2017-01-30T20:00:00",
+      "visible_until_utc": "2017-01-31T05:00:00",
+      "time_tbd": false,
+      "taxonomies": [
+        {
+          "parent_id": null,
+          "id": 1000000,
+          "name": "sports"
+        },
+        {
+          "parent_id": 1000000,
+          "id": 1030000,
+          "name": "basketball"
+        },
+        {
+          "parent_id": 1030000,
+          "id": 1030100,
+          "name": "nba"
+        }
+      ],
+      "performers": [
+        {
+          "image": "https://chairnerd.global.ssl.fastly.net/images/performers-landscape/boston-celtics-4d3c16/2088/huge.jpg",
+          "primary": true,
+          "images": {
+            "huge": "https://chairnerd.global.ssl.fastly.net/images/performers-landscape/boston-celtics-4d3c16/2088/huge.jpg"
+          },
+          "has_upcoming_events": true,
+          "id": 2088,
+          "stats": {
+            "event_count": 67
+          },
+          "image_license": null,
+          "score": 0.742893,
+          "taxonomies": [
+            {
+              "parent_id": null,
+              "id": 1000000,
+              "name": "sports"
+            },
+            {
+              "parent_id": 1000000,
+              "id": 1030000,
+              "name": "basketball"
+            },
+            {
+              "parent_id": 1030000,
+              "id": 1030100,
+              "name": "nba"
+            }
+          ],
+          "type": "nba",
+          "short_name": "Celtics",
+          "home_venue_id": 1544,
+          "slug": "boston-celtics",
+          "divisions": [
+            {
+              "display_name": "Eastern Conference",
+              "short_name": null,
+              "division_level": 1,
+              "display_type": "Conference",
+              "taxonomy_id": 1030100,
+              "slug": null
+            },
+            {
+              "display_name": "Eastern - Atlantic",
+              "short_name": "Atlantic",
+              "division_level": 2,
+              "display_type": "Division",
+              "taxonomy_id": 1030100,
+              "slug": "eastern-atlantic"
+            }
+          ],
+          "home_team": true,
+          "name": "Boston Celtics",
+          "url": "https://seatgeek.com/boston-celtics-tickets",
+          "image_attribution": "https://commons.wikimedia.org/wiki/Category:2013%E2%80%9314_Boston_Celtics_season#/media/File:NBA_-_February_2014_-_Celtics_vs_Spurs_-_TD_Garden_-_2.JPG"
+        },
+        {
+          "image": "https://chairnerd.global.ssl.fastly.net/images/performers-landscape/detroit-pistons-8ff9df/2095/huge.jpg",
+          "images": {
+            "huge": "https://chairnerd.global.ssl.fastly.net/images/performers-landscape/detroit-pistons-8ff9df/2095/huge.jpg"
+          },
+          "has_upcoming_events": true,
+          "id": 2095,
+          "away_team": true,
+          "stats": {
+            "event_count": 66
+          },
+          "image_license": null,
+          "score": 0.645191,
+          "taxonomies": [
+            {
+              "parent_id": null,
+              "id": 1000000,
+              "name": "sports"
+            },
+            {
+              "parent_id": 1000000,
+              "id": 1030000,
+              "name": "basketball"
+            },
+            {
+              "parent_id": 1030000,
+              "id": 1030100,
+              "name": "nba"
+            }
+          ],
+          "type": "nba",
+          "short_name": "Pistons",
+          "home_venue_id": 137,
+          "slug": "detroit-pistons",
+          "divisions": [
+            {
+              "display_name": "Eastern Conference",
+              "short_name": null,
+              "division_level": 1,
+              "display_type": "Conference",
+              "taxonomy_id": 1030100,
+              "slug": null
+            },
+            {
+              "display_name": "Eastern - Central",
+              "short_name": "Central",
+              "division_level": 2,
+              "display_type": "Division",
+              "taxonomy_id": 1030100,
+              "slug": "eastern-central"
+            }
+          ],
+          "name": "Detroit Pistons",
+          "url": "https://seatgeek.com/detroit-pistons-tickets",
+          "image_attribution": "https://commons.wikimedia.org/wiki/File:Atlanta_Hawks_vs._Detroit_Pistons_January_2015_02.jpg"
+        }
+      ],
+      "url": "https://seatgeek.com/pistons-at-celtics-tickets/1-30-2017-boston-massachusetts-td-garden/nba/3475715",
+      "created_at": "2016-08-12T00:00:00",
+      "venue": {
+        "city": "Boston",
+        "name": "TD Garden",
+        "extended_address": "Boston, MA 02114",
+        "url": "https://seatgeek.com/venues/td-garden/tickets",
+        "country": "US",
+        "display_location": "Boston, MA",
+        "links": [],
+        "slug": "td-garden",
+        "state": "MA",
+        "score": 0.853137,
+        "postal_code": "02114",
+        "location": {
+          "lat": 42.3653,
+          "lon": -71.0618
+        },
+        "address": "100 Legends Way",
+        "timezone": "America/New_York",
+        "id": 1544
+      },
+      "short_title": "Pistons at Celtics",
+      "datetime_utc": "2017-01-31T01:00:00",
+      "datetime_tbd": false
+    },
+    {
+      "links": [],
+      "id": 3475703,
+      "stats": {
+        "listing_count": 4290,
+        "average_price": 86,
+        "lowest_price_good_deals": 27,
+        "lowest_price": 27,
+        "highest_price": 5544
+      },
+      "title": "Atlanta Hawks at Boston Celtics",
+      "announce_date": "2016-08-12T00:00:00",
+      "score": 0.800993,
+      "date_tbd": false,
+      "type": "nba",
+      "datetime_local": "2017-02-27T19:30:00",
+      "visible_until_utc": "2017-02-28T04:30:00",
+      "time_tbd": false,
+      "taxonomies": [
+        {
+          "parent_id": null,
+          "id": 1000000,
+          "name": "sports"
+        },
+        {
+          "parent_id": 1000000,
+          "id": 1030000,
+          "name": "basketball"
+        },
+        {
+          "parent_id": 1030000,
+          "id": 1030100,
+          "name": "nba"
+        }
+      ],
+      "performers": [
+        {
+          "image": "https://chairnerd.global.ssl.fastly.net/images/performers-landscape/boston-celtics-4d3c16/2088/huge.jpg",
+          "primary": true,
+          "images": {
+            "huge": "https://chairnerd.global.ssl.fastly.net/images/performers-landscape/boston-celtics-4d3c16/2088/huge.jpg"
+          },
+          "has_upcoming_events": true,
+          "id": 2088,
+          "stats": {
+            "event_count": 67
+          },
+          "image_license": null,
+          "score": 0.742893,
+          "taxonomies": [
+            {
+              "parent_id": null,
+              "id": 1000000,
+              "name": "sports"
+            },
+            {
+              "parent_id": 1000000,
+              "id": 1030000,
+              "name": "basketball"
+            },
+            {
+              "parent_id": 1030000,
+              "id": 1030100,
+              "name": "nba"
+            }
+          ],
+          "type": "nba",
+          "short_name": "Celtics",
+          "home_venue_id": 1544,
+          "slug": "boston-celtics",
+          "divisions": [
+            {
+              "display_name": "Eastern Conference",
+              "short_name": null,
+              "division_level": 1,
+              "display_type": "Conference",
+              "taxonomy_id": 1030100,
+              "slug": null
+            },
+            {
+              "display_name": "Eastern - Atlantic",
+              "short_name": "Atlantic",
+              "division_level": 2,
+              "display_type": "Division",
+              "taxonomy_id": 1030100,
+              "slug": "eastern-atlantic"
+            }
+          ],
+          "home_team": true,
+          "name": "Boston Celtics",
+          "url": "https://seatgeek.com/boston-celtics-tickets",
+          "image_attribution": "https://commons.wikimedia.org/wiki/Category:2013%E2%80%9314_Boston_Celtics_season#/media/File:NBA_-_February_2014_-_Celtics_vs_Spurs_-_TD_Garden_-_2.JPG"
+        },
+        {
+          "image": "https://chairnerd.global.ssl.fastly.net/images/performers-landscape/atlanta-hawks-45b76b/2098/huge.jpg",
+          "images": {
+            "huge": "https://chairnerd.global.ssl.fastly.net/images/performers-landscape/atlanta-hawks-45b76b/2098/huge.jpg"
+          },
+          "has_upcoming_events": true,
+          "id": 2098,
+          "away_team": true,
+          "stats": {
+            "event_count": 67
+          },
+          "image_license": null,
+          "score": 0.687659,
+          "taxonomies": [
+            {
+              "parent_id": null,
+              "id": 1000000,
+              "name": "sports"
+            },
+            {
+              "parent_id": 1000000,
+              "id": 1030000,
+              "name": "basketball"
+            },
+            {
+              "parent_id": 1030000,
+              "id": 1030100,
+              "name": "nba"
+            }
+          ],
+          "type": "nba",
+          "short_name": "Hawks",
+          "home_venue_id": 127,
+          "slug": "atlanta-hawks",
+          "divisions": [
+            {
+              "display_name": "Eastern Conference",
+              "short_name": null,
+              "division_level": 1,
+              "display_type": "Conference",
+              "taxonomy_id": 1030100,
+              "slug": null
+            },
+            {
+              "display_name": "Eastern - Southeast",
+              "short_name": "Southeast",
+              "division_level": 2,
+              "display_type": "Division",
+              "taxonomy_id": 1030100,
+              "slug": "eastern-southeast"
+            }
+          ],
+          "name": "Atlanta Hawks",
+          "url": "https://seatgeek.com/atlanta-hawks-tickets",
+          "image_attribution": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Philips_Arena_basketball.jpg"
+        }
+      ],
+      "url": "https://seatgeek.com/hawks-at-celtics-tickets/2-27-2017-boston-massachusetts-td-garden/nba/3475703",
+      "created_at": "2016-08-12T00:00:00",
+      "venue": {
+        "city": "Boston",
+        "name": "TD Garden",
+        "extended_address": "Boston, MA 02114",
+        "url": "https://seatgeek.com/venues/td-garden/tickets",
+        "country": "US",
+        "display_location": "Boston, MA",
+        "links": [],
+        "slug": "td-garden",
+        "state": "MA",
+        "score": 0.853137,
+        "postal_code": "02114",
+        "location": {
+          "lat": 42.3653,
+          "lon": -71.0618
+        },
+        "address": "100 Legends Way",
+        "timezone": "America/New_York",
+        "id": 1544
+      },
+      "short_title": "Hawks at Celtics",
+      "datetime_utc": "2017-02-28T00:30:00",
+      "datetime_tbd": false
+    },
+    {
+      "links": [],
+      "id": 3475698,
+      "stats": {
+        "listing_count": 4170,
+        "average_price": 96,
+        "lowest_price_good_deals": 33,
+        "lowest_price": 33,
+        "highest_price": 5544
+      },
+      "title": "Houston Rockets at Boston Celtics",
+      "announce_date": "2016-08-12T00:00:00",
+      "score": 0.794662,
+      "date_tbd": false,
+      "type": "nba",
+      "datetime_local": "2017-01-25T19:30:00",
+      "visible_until_utc": "2017-01-26T04:30:00",
+      "time_tbd": false,
+      "taxonomies": [
+        {
+          "parent_id": null,
+          "id": 1000000,
+          "name": "sports"
+        },
+        {
+          "parent_id": 1000000,
+          "id": 1030000,
+          "name": "basketball"
+        },
+        {
+          "parent_id": 1030000,
+          "id": 1030100,
+          "name": "nba"
+        }
+      ],
+      "performers": [
+        {
+          "image": "https://chairnerd.global.ssl.fastly.net/images/performers-landscape/boston-celtics-4d3c16/2088/huge.jpg",
+          "primary": true,
+          "images": {
+            "huge": "https://chairnerd.global.ssl.fastly.net/images/performers-landscape/boston-celtics-4d3c16/2088/huge.jpg"
+          },
+          "has_upcoming_events": true,
+          "id": 2088,
+          "stats": {
+            "event_count": 67
+          },
+          "image_license": null,
+          "score": 0.742893,
+          "taxonomies": [
+            {
+              "parent_id": null,
+              "id": 1000000,
+              "name": "sports"
+            },
+            {
+              "parent_id": 1000000,
+              "id": 1030000,
+              "name": "basketball"
+            },
+            {
+              "parent_id": 1030000,
+              "id": 1030100,
+              "name": "nba"
+            }
+          ],
+          "type": "nba",
+          "short_name": "Celtics",
+          "home_venue_id": 1544,
+          "slug": "boston-celtics",
+          "divisions": [
+            {
+              "display_name": "Eastern Conference",
+              "short_name": null,
+              "division_level": 1,
+              "display_type": "Conference",
+              "taxonomy_id": 1030100,
+              "slug": null
+            },
+            {
+              "display_name": "Eastern - Atlantic",
+              "short_name": "Atlantic",
+              "division_level": 2,
+              "display_type": "Division",
+              "taxonomy_id": 1030100,
+              "slug": "eastern-atlantic"
+            }
+          ],
+          "home_team": true,
+          "name": "Boston Celtics",
+          "url": "https://seatgeek.com/boston-celtics-tickets",
+          "image_attribution": "https://commons.wikimedia.org/wiki/Category:2013%E2%80%9314_Boston_Celtics_season#/media/File:NBA_-_February_2014_-_Celtics_vs_Spurs_-_TD_Garden_-_2.JPG"
+        },
+        {
+          "image": "https://chairnerd.global.ssl.fastly.net/images/performers-landscape/houston-rockets-8dcad0/2114/huge.jpg",
+          "images": {
+            "huge": "https://chairnerd.global.ssl.fastly.net/images/performers-landscape/houston-rockets-8dcad0/2114/huge.jpg"
+          },
+          "has_upcoming_events": true,
+          "id": 2114,
+          "away_team": true,
+          "stats": {
+            "event_count": 67
+          },
+          "image_license": null,
+          "score": 0.669969,
+          "taxonomies": [
+            {
+              "parent_id": null,
+              "id": 1000000,
+              "name": "sports"
+            },
+            {
+              "parent_id": 1000000,
+              "id": 1030000,
+              "name": "basketball"
+            },
+            {
+              "parent_id": 1030000,
+              "id": 1030100,
+              "name": "nba"
+            }
+          ],
+          "type": "nba",
+          "short_name": "Rockets",
+          "home_venue_id": 129,
+          "slug": "houston-rockets",
+          "divisions": [
+            {
+              "display_name": "Western Conference",
+              "short_name": null,
+              "division_level": 1,
+              "display_type": "Conference",
+              "taxonomy_id": 1030100,
+              "slug": null
+            },
+            {
+              "display_name": "Western - Southwest",
+              "short_name": "Southwest",
+              "division_level": 2,
+              "display_type": "Division",
+              "taxonomy_id": 1030100,
+              "slug": "western-southwest"
+            }
+          ],
+          "name": "Houston Rockets",
+          "url": "https://seatgeek.com/houston-rockets-tickets",
+          "image_attribution": "https://www.flickr.com/photos/royluck/16357013411/in/photolist-qVpYdB-qD7yhi-mcn9x8-mcnfPB-mcodNZ-mco9NV-mcpiy9-mcpEg1-mcmx8t-mckEur-mcmB9z-mcnuRp-mcpJB5-mcnJNm-mcptLd-mcpAD1-mcoKtg-mconwR-mckUB4-mcnL9C-mcm3ak-mcnX3m-mcnQbW-mco5xG-mcmjDx-mcofXE-mcnZ4A-mcm"
+        }
+      ],
+      "url": "https://seatgeek.com/rockets-at-celtics-tickets/1-25-2017-boston-massachusetts-td-garden/nba/3475698",
+      "created_at": "2016-08-12T00:00:00",
+      "venue": {
+        "city": "Boston",
+        "name": "TD Garden",
+        "extended_address": "Boston, MA 02114",
+        "url": "https://seatgeek.com/venues/td-garden/tickets",
+        "country": "US",
+        "display_location": "Boston, MA",
+        "links": [],
+        "slug": "td-garden",
+        "state": "MA",
+        "score": 0.853137,
+        "postal_code": "02114",
+        "location": {
+          "lat": 42.3653,
+          "lon": -71.0618
+        },
+        "address": "100 Legends Way",
+        "timezone": "America/New_York",
+        "id": 1544
+      },
+      "short_title": "Rockets at Celtics",
+      "datetime_utc": "2017-01-26T00:30:00",
+      "datetime_tbd": false
+    },
+    {
+      "links": [],
+      "id": 3475717,
+      "stats": {
+        "listing_count": 4055,
+        "average_price": 97,
+        "lowest_price_good_deals": 33,
+        "lowest_price": 33,
+        "highest_price": 5544
+      },
+      "title": "Charlotte Hornets at Boston Celtics",
+      "announce_date": "2016-08-12T00:00:00",
+      "score": 0.793646,
+      "date_tbd": false,
+      "type": "nba",
+      "datetime_local": "2016-12-16T19:30:00",
+      "visible_until_utc": "2016-12-17T04:30:00",
+      "time_tbd": false,
+      "taxonomies": [
+        {
+          "parent_id": null,
+          "id": 1000000,
+          "name": "sports"
+        },
+        {
+          "parent_id": 1000000,
+          "id": 1030000,
+          "name": "basketball"
+        },
+        {
+          "parent_id": 1030000,
+          "id": 1030100,
+          "name": "nba"
+        }
+      ],
+      "performers": [
+        {
+          "image": "https://chairnerd.global.ssl.fastly.net/images/performers-landscape/boston-celtics-4d3c16/2088/huge.jpg",
+          "primary": true,
+          "images": {
+            "huge": "https://chairnerd.global.ssl.fastly.net/images/performers-landscape/boston-celtics-4d3c16/2088/huge.jpg"
+          },
+          "has_upcoming_events": true,
+          "id": 2088,
+          "stats": {
+            "event_count": 67
+          },
+          "image_license": null,
+          "score": 0.742893,
+          "taxonomies": [
+            {
+              "parent_id": null,
+              "id": 1000000,
+              "name": "sports"
+            },
+            {
+              "parent_id": 1000000,
+              "id": 1030000,
+              "name": "basketball"
+            },
+            {
+              "parent_id": 1030000,
+              "id": 1030100,
+              "name": "nba"
+            }
+          ],
+          "type": "nba",
+          "short_name": "Celtics",
+          "home_venue_id": 1544,
+          "slug": "boston-celtics",
+          "divisions": [
+            {
+              "display_name": "Eastern Conference",
+              "short_name": null,
+              "division_level": 1,
+              "display_type": "Conference",
+              "taxonomy_id": 1030100,
+              "slug": null
+            },
+            {
+              "display_name": "Eastern - Atlantic",
+              "short_name": "Atlantic",
+              "division_level": 2,
+              "display_type": "Division",
+              "taxonomy_id": 1030100,
+              "slug": "eastern-atlantic"
+            }
+          ],
+          "home_team": true,
+          "name": "Boston Celtics",
+          "url": "https://seatgeek.com/boston-celtics-tickets",
+          "image_attribution": "https://commons.wikimedia.org/wiki/Category:2013%E2%80%9314_Boston_Celtics_season#/media/File:NBA_-_February_2014_-_Celtics_vs_Spurs_-_TD_Garden_-_2.JPG"
+        },
+        {
+          "image": "https://chairnerd.global.ssl.fastly.net/images/performers-landscape/charlotte-hornets-51a32f/2099/huge.jpg",
+          "images": {
+            "huge": "https://chairnerd.global.ssl.fastly.net/images/performers-landscape/charlotte-hornets-51a32f/2099/huge.jpg"
+          },
+          "has_upcoming_events": true,
+          "id": 2099,
+          "away_team": true,
+          "stats": {
+            "event_count": 68
+          },
+          "image_license": null,
+          "score": 0.667469,
+          "taxonomies": [
+            {
+              "parent_id": null,
+              "id": 1000000,
+              "name": "sports"
+            },
+            {
+              "parent_id": 1000000,
+              "id": 1030000,
+              "name": "basketball"
+            },
+            {
+              "parent_id": 1030000,
+              "id": 1030100,
+              "name": "nba"
+            }
+          ],
+          "type": "nba",
+          "short_name": "Hornets",
+          "home_venue_id": 112,
+          "slug": "charlotte-hornets",
+          "divisions": [
+            {
+              "display_name": "Eastern Conference",
+              "short_name": null,
+              "division_level": 1,
+              "display_type": "Conference",
+              "taxonomy_id": 1030100,
+              "slug": null
+            },
+            {
+              "display_name": "Eastern - Southeast",
+              "short_name": "Southeast",
+              "division_level": 2,
+              "display_type": "Division",
+              "taxonomy_id": 1030100,
+              "slug": "eastern-southeast"
+            }
+          ],
+          "name": "Charlotte Hornets",
+          "url": "https://seatgeek.com/charlotte-hornets-tickets",
+          "image_attribution": "https://c2.staticflickr.com/6/5114/5810515865_4c8f12b291_b.jpg"
+        }
+      ],
+      "url": "https://seatgeek.com/hornets-at-celtics-tickets/12-16-2016-boston-massachusetts-td-garden/nba/3475717",
+      "created_at": "2016-08-12T00:00:00",
+      "venue": {
+        "city": "Boston",
+        "name": "TD Garden",
+        "extended_address": "Boston, MA 02114",
+        "url": "https://seatgeek.com/venues/td-garden/tickets",
+        "country": "US",
+        "display_location": "Boston, MA",
+        "links": [],
+        "slug": "td-garden",
+        "state": "MA",
+        "score": 0.853137,
+        "postal_code": "02114",
+        "location": {
+          "lat": 42.3653,
+          "lon": -71.0618
+        },
+        "address": "100 Legends Way",
+        "timezone": "America/New_York",
+        "id": 1544
+      },
+      "short_title": "Hornets at Celtics",
+      "datetime_utc": "2016-12-17T00:30:00",
+      "datetime_tbd": false
+    },
+    {
+      "links": [],
+      "id": 3475708,
+      "stats": {
+        "listing_count": 4146,
+        "average_price": 83.5,
+        "lowest_price_good_deals": 29,
+        "lowest_price": 29,
+        "highest_price": 5544
+      },
+      "title": "Philadelphia 76ers at Boston Celtics",
+      "announce_date": "2016-08-12T00:00:00",
+      "score": 0.791472,
+      "date_tbd": false,
+      "type": "nba",
+      "datetime_local": "2017-02-15T19:30:00",
+      "visible_until_utc": "2017-02-16T04:30:00",
+      "time_tbd": false,
+      "taxonomies": [
+        {
+          "parent_id": null,
+          "id": 1000000,
+          "name": "sports"
+        },
+        {
+          "parent_id": 1000000,
+          "id": 1030000,
+          "name": "basketball"
+        },
+        {
+          "parent_id": 1030000,
+          "id": 1030100,
+          "name": "nba"
+        }
+      ],
+      "performers": [
+        {
+          "image": "https://chairnerd.global.ssl.fastly.net/images/performers-landscape/boston-celtics-4d3c16/2088/huge.jpg",
+          "primary": true,
+          "images": {
+            "huge": "https://chairnerd.global.ssl.fastly.net/images/performers-landscape/boston-celtics-4d3c16/2088/huge.jpg"
+          },
+          "has_upcoming_events": true,
+          "id": 2088,
+          "stats": {
+            "event_count": 67
+          },
+          "image_license": null,
+          "score": 0.742893,
+          "taxonomies": [
+            {
+              "parent_id": null,
+              "id": 1000000,
+              "name": "sports"
+            },
+            {
+              "parent_id": 1000000,
+              "id": 1030000,
+              "name": "basketball"
+            },
+            {
+              "parent_id": 1030000,
+              "id": 1030100,
+              "name": "nba"
+            }
+          ],
+          "type": "nba",
+          "short_name": "Celtics",
+          "home_venue_id": 1544,
+          "slug": "boston-celtics",
+          "divisions": [
+            {
+              "display_name": "Eastern Conference",
+              "short_name": null,
+              "division_level": 1,
+              "display_type": "Conference",
+              "taxonomy_id": 1030100,
+              "slug": null
+            },
+            {
+              "display_name": "Eastern - Atlantic",
+              "short_name": "Atlantic",
+              "division_level": 2,
+              "display_type": "Division",
+              "taxonomy_id": 1030100,
+              "slug": "eastern-atlantic"
+            }
+          ],
+          "home_team": true,
+          "name": "Boston Celtics",
+          "url": "https://seatgeek.com/boston-celtics-tickets",
+          "image_attribution": "https://commons.wikimedia.org/wiki/Category:2013%E2%80%9314_Boston_Celtics_season#/media/File:NBA_-_February_2014_-_Celtics_vs_Spurs_-_TD_Garden_-_2.JPG"
+        },
+        {
+          "image": "https://chairnerd.global.ssl.fastly.net/images/performers-landscape/philadelphia-76ers-b0c527/2091/huge.jpg",
+          "images": {
+            "huge": "https://chairnerd.global.ssl.fastly.net/images/performers-landscape/philadelphia-76ers-b0c527/2091/huge.jpg"
+          },
+          "has_upcoming_events": true,
+          "id": 2091,
+          "away_team": true,
+          "stats": {
+            "event_count": 67
+          },
+          "image_license": null,
+          "score": 0.697459,
+          "taxonomies": [
+            {
+              "parent_id": null,
+              "id": 1000000,
+              "name": "sports"
+            },
+            {
+              "parent_id": 1000000,
+              "id": 1030000,
+              "name": "basketball"
+            },
+            {
+              "parent_id": 1030000,
+              "id": 1030100,
+              "name": "nba"
+            }
+          ],
+          "type": "nba",
+          "short_name": "76ers",
+          "home_venue_id": 3148,
+          "slug": "philadelphia-76ers",
+          "divisions": [
+            {
+              "display_name": "Eastern Conference",
+              "short_name": null,
+              "division_level": 1,
+              "display_type": "Conference",
+              "taxonomy_id": 1030100,
+              "slug": null
+            },
+            {
+              "display_name": "Eastern - Atlantic",
+              "short_name": "Atlantic",
+              "division_level": 2,
+              "display_type": "Division",
+              "taxonomy_id": 1030100,
+              "slug": "eastern-atlantic"
+            }
+          ],
+          "name": "Philadelphia 76ers",
+          "url": "https://seatgeek.com/philadelphia-76ers-tickets",
+          "image_attribution": "https://de.wikipedia.org/wiki/Wells_Fargo_Center_(Philadelphia)#/media/File:Wells_Fargo_Center_2012-02-06.jpg"
+        }
+      ],
+      "url": "https://seatgeek.com/76ers-at-celtics-tickets/2-15-2017-boston-massachusetts-td-garden/nba/3475708",
+      "created_at": "2016-08-12T00:00:00",
+      "venue": {
+        "city": "Boston",
+        "name": "TD Garden",
+        "extended_address": "Boston, MA 02114",
+        "url": "https://seatgeek.com/venues/td-garden/tickets",
+        "country": "US",
+        "display_location": "Boston, MA",
+        "links": [],
+        "slug": "td-garden",
+        "state": "MA",
+        "score": 0.853137,
+        "postal_code": "02114",
+        "location": {
+          "lat": 42.3653,
+          "lon": -71.0618
+        },
+        "address": "100 Legends Way",
+        "timezone": "America/New_York",
+        "id": 1544
+      },
+      "short_title": "76ers at Celtics",
+      "datetime_utc": "2017-02-16T00:30:00",
+      "datetime_tbd": false
+    },
+    {
+      "links": [],
+      "id": 3475686,
+      "stats": {
+        "listing_count": 4332,
+        "average_price": 91,
+        "lowest_price_good_deals": 27,
+        "lowest_price": 27,
+        "highest_price": 5544
+      },
+      "title": "Washington Wizards at Boston Celtics",
+      "announce_date": "2016-08-12T00:00:00",
+      "score": 0.790314,
+      "date_tbd": false,
+      "type": "nba",
+      "datetime_local": "2017-01-11T20:00:00",
+      "visible_until_utc": "2017-01-12T05:00:00",
+      "time_tbd": false,
+      "taxonomies": [
+        {
+          "parent_id": null,
+          "id": 1000000,
+          "name": "sports"
+        },
+        {
+          "parent_id": 1000000,
+          "id": 1030000,
+          "name": "basketball"
+        },
+        {
+          "parent_id": 1030000,
+          "id": 1030100,
+          "name": "nba"
+        }
+      ],
+      "performers": [
+        {
+          "image": "https://chairnerd.global.ssl.fastly.net/images/performers-landscape/boston-celtics-4d3c16/2088/huge.jpg",
+          "primary": true,
+          "images": {
+            "huge": "https://chairnerd.global.ssl.fastly.net/images/performers-landscape/boston-celtics-4d3c16/2088/huge.jpg"
+          },
+          "has_upcoming_events": true,
+          "id": 2088,
+          "stats": {
+            "event_count": 67
+          },
+          "image_license": null,
+          "score": 0.742893,
+          "taxonomies": [
+            {
+              "parent_id": null,
+              "id": 1000000,
+              "name": "sports"
+            },
+            {
+              "parent_id": 1000000,
+              "id": 1030000,
+              "name": "basketball"
+            },
+            {
+              "parent_id": 1030000,
+              "id": 1030100,
+              "name": "nba"
+            }
+          ],
+          "type": "nba",
+          "short_name": "Celtics",
+          "home_venue_id": 1544,
+          "slug": "boston-celtics",
+          "divisions": [
+            {
+              "display_name": "Eastern Conference",
+              "short_name": null,
+              "division_level": 1,
+              "display_type": "Conference",
+              "taxonomy_id": 1030100,
+              "slug": null
+            },
+            {
+              "display_name": "Eastern - Atlantic",
+              "short_name": "Atlantic",
+              "division_level": 2,
+              "display_type": "Division",
+              "taxonomy_id": 1030100,
+              "slug": "eastern-atlantic"
+            }
+          ],
+          "home_team": true,
+          "name": "Boston Celtics",
+          "url": "https://seatgeek.com/boston-celtics-tickets",
+          "image_attribution": "https://commons.wikimedia.org/wiki/Category:2013%E2%80%9314_Boston_Celtics_season#/media/File:NBA_-_February_2014_-_Celtics_vs_Spurs_-_TD_Garden_-_2.JPG"
+        },
+        {
+          "image": "https://chairnerd.global.ssl.fastly.net/images/performers-landscape/washington-wizards-722c67/2102/huge.jpg",
+          "images": {
+            "huge": "https://chairnerd.global.ssl.fastly.net/images/performers-landscape/washington-wizards-722c67/2102/huge.jpg"
+          },
+          "has_upcoming_events": true,
+          "id": 2102,
+          "away_team": true,
+          "stats": {
+            "event_count": 69
+          },
+          "image_license": null,
+          "score": 0.709637,
+          "taxonomies": [
+            {
+              "parent_id": null,
+              "id": 1000000,
+              "name": "sports"
+            },
+            {
+              "parent_id": 1000000,
+              "id": 1030000,
+              "name": "basketball"
+            },
+            {
+              "parent_id": 1030000,
+              "id": 1030100,
+              "name": "nba"
+            }
+          ],
+          "type": "nba",
+          "short_name": "Wizards",
+          "home_venue_id": 181,
+          "slug": "washington-wizards",
+          "divisions": [
+            {
+              "display_name": "Eastern Conference",
+              "short_name": null,
+              "division_level": 1,
+              "display_type": "Conference",
+              "taxonomy_id": 1030100,
+              "slug": null
+            },
+            {
+              "display_name": "Eastern - Southeast",
+              "short_name": "Southeast",
+              "division_level": 2,
+              "display_type": "Division",
+              "taxonomy_id": 1030100,
+              "slug": "eastern-southeast"
+            }
+          ],
+          "name": "Washington Wizards",
+          "url": "https://seatgeek.com/washington-wizards-tickets",
+          "image_attribution": "null"
+        }
+      ],
+      "url": "https://seatgeek.com/wizards-at-celtics-tickets/1-11-2017-boston-massachusetts-td-garden/nba/3475686",
+      "created_at": "2016-08-12T00:00:00",
+      "venue": {
+        "city": "Boston",
+        "name": "TD Garden",
+        "extended_address": "Boston, MA 02114",
+        "url": "https://seatgeek.com/venues/td-garden/tickets",
+        "country": "US",
+        "display_location": "Boston, MA",
+        "links": [],
+        "slug": "td-garden",
+        "state": "MA",
+        "score": 0.853137,
+        "postal_code": "02114",
+        "location": {
+          "lat": 42.3653,
+          "lon": -71.0618
+        },
+        "address": "100 Legends Way",
+        "timezone": "America/New_York",
+        "id": 1544
+      },
+      "short_title": "Wizards at Celtics",
+      "datetime_utc": "2017-01-12T01:00:00",
+      "datetime_tbd": false
+    },
+    {
+      "links": [],
+      "id": 3475719,
+      "stats": {
+        "listing_count": 4408,
+        "average_price": 88,
+        "lowest_price_good_deals": 28,
+        "lowest_price": 28,
+        "highest_price": 5544
+      },
+      "title": "Charlotte Hornets at Boston Celtics",
+      "announce_date": "2016-08-12T00:00:00",
+      "score": 0.786745,
+      "date_tbd": false,
+      "type": "nba",
+      "datetime_local": "2017-01-16T19:30:00",
+      "visible_until_utc": "2017-01-17T04:30:00",
+      "time_tbd": false,
+      "taxonomies": [
+        {
+          "parent_id": null,
+          "id": 1000000,
+          "name": "sports"
+        },
+        {
+          "parent_id": 1000000,
+          "id": 1030000,
+          "name": "basketball"
+        },
+        {
+          "parent_id": 1030000,
+          "id": 1030100,
+          "name": "nba"
+        }
+      ],
+      "performers": [
+        {
+          "image": "https://chairnerd.global.ssl.fastly.net/images/performers-landscape/boston-celtics-4d3c16/2088/huge.jpg",
+          "primary": true,
+          "images": {
+            "huge": "https://chairnerd.global.ssl.fastly.net/images/performers-landscape/boston-celtics-4d3c16/2088/huge.jpg"
+          },
+          "has_upcoming_events": true,
+          "id": 2088,
+          "stats": {
+            "event_count": 67
+          },
+          "image_license": null,
+          "score": 0.742893,
+          "taxonomies": [
+            {
+              "parent_id": null,
+              "id": 1000000,
+              "name": "sports"
+            },
+            {
+              "parent_id": 1000000,
+              "id": 1030000,
+              "name": "basketball"
+            },
+            {
+              "parent_id": 1030000,
+              "id": 1030100,
+              "name": "nba"
+            }
+          ],
+          "type": "nba",
+          "short_name": "Celtics",
+          "home_venue_id": 1544,
+          "slug": "boston-celtics",
+          "divisions": [
+            {
+              "display_name": "Eastern Conference",
+              "short_name": null,
+              "division_level": 1,
+              "display_type": "Conference",
+              "taxonomy_id": 1030100,
+              "slug": null
+            },
+            {
+              "display_name": "Eastern - Atlantic",
+              "short_name": "Atlantic",
+              "division_level": 2,
+              "display_type": "Division",
+              "taxonomy_id": 1030100,
+              "slug": "eastern-atlantic"
+            }
+          ],
+          "home_team": true,
+          "name": "Boston Celtics",
+          "url": "https://seatgeek.com/boston-celtics-tickets",
+          "image_attribution": "https://commons.wikimedia.org/wiki/Category:2013%E2%80%9314_Boston_Celtics_season#/media/File:NBA_-_February_2014_-_Celtics_vs_Spurs_-_TD_Garden_-_2.JPG"
+        },
+        {
+          "image": "https://chairnerd.global.ssl.fastly.net/images/performers-landscape/charlotte-hornets-51a32f/2099/huge.jpg",
+          "images": {
+            "huge": "https://chairnerd.global.ssl.fastly.net/images/performers-landscape/charlotte-hornets-51a32f/2099/huge.jpg"
+          },
+          "has_upcoming_events": true,
+          "id": 2099,
+          "away_team": true,
+          "stats": {
+            "event_count": 68
+          },
+          "image_license": null,
+          "score": 0.667469,
+          "taxonomies": [
+            {
+              "parent_id": null,
+              "id": 1000000,
+              "name": "sports"
+            },
+            {
+              "parent_id": 1000000,
+              "id": 1030000,
+              "name": "basketball"
+            },
+            {
+              "parent_id": 1030000,
+              "id": 1030100,
+              "name": "nba"
+            }
+          ],
+          "type": "nba",
+          "short_name": "Hornets",
+          "home_venue_id": 112,
+          "slug": "charlotte-hornets",
+          "divisions": [
+            {
+              "display_name": "Eastern Conference",
+              "short_name": null,
+              "division_level": 1,
+              "display_type": "Conference",
+              "taxonomy_id": 1030100,
+              "slug": null
+            },
+            {
+              "display_name": "Eastern - Southeast",
+              "short_name": "Southeast",
+              "division_level": 2,
+              "display_type": "Division",
+              "taxonomy_id": 1030100,
+              "slug": "eastern-southeast"
+            }
+          ],
+          "name": "Charlotte Hornets",
+          "url": "https://seatgeek.com/charlotte-hornets-tickets",
+          "image_attribution": "https://c2.staticflickr.com/6/5114/5810515865_4c8f12b291_b.jpg"
+        }
+      ],
+      "url": "https://seatgeek.com/hornets-at-celtics-tickets/1-16-2017-boston-massachusetts-td-garden/nba/3475719",
+      "created_at": "2016-08-12T00:00:00",
+      "venue": {
+        "city": "Boston",
+        "name": "TD Garden",
+        "extended_address": "Boston, MA 02114",
+        "url": "https://seatgeek.com/venues/td-garden/tickets",
+        "country": "US",
+        "display_location": "Boston, MA",
+        "links": [],
+        "slug": "td-garden",
+        "state": "MA",
+        "score": 0.853137,
+        "postal_code": "02114",
+        "location": {
+          "lat": 42.3653,
+          "lon": -71.0618
+        },
+        "address": "100 Legends Way",
+        "timezone": "America/New_York",
+        "id": 1544
+      },
+      "short_title": "Hornets at Celtics",
+      "datetime_utc": "2017-01-17T00:30:00",
+      "datetime_tbd": false
+    },
+    {
+      "links": [],
+      "id": 3475712,
+      "stats": {
+        "listing_count": 3420,
+        "average_price": 97,
+        "lowest_price_good_deals": 36,
+        "lowest_price": 36,
+        "highest_price": 5544
+      },
+      "title": "Sacramento Kings at Boston Celtics",
+      "announce_date": "2016-08-12T00:00:00",
+      "score": 0.784925,
+      "date_tbd": false,
+      "type": "nba",
+      "datetime_local": "2016-12-02T19:30:00",
+      "visible_until_utc": "2016-12-03T04:30:00",
+      "time_tbd": false,
+      "taxonomies": [
+        {
+          "parent_id": null,
+          "id": 1000000,
+          "name": "sports"
+        },
+        {
+          "parent_id": 1000000,
+          "id": 1030000,
+          "name": "basketball"
+        },
+        {
+          "parent_id": 1030000,
+          "id": 1030100,
+          "name": "nba"
+        }
+      ],
+      "performers": [
+        {
+          "image": "https://chairnerd.global.ssl.fastly.net/images/performers-landscape/boston-celtics-4d3c16/2088/huge.jpg",
+          "primary": true,
+          "images": {
+            "huge": "https://chairnerd.global.ssl.fastly.net/images/performers-landscape/boston-celtics-4d3c16/2088/huge.jpg"
+          },
+          "has_upcoming_events": true,
+          "id": 2088,
+          "stats": {
+            "event_count": 67
+          },
+          "image_license": null,
+          "score": 0.742893,
+          "taxonomies": [
+            {
+              "parent_id": null,
+              "id": 1000000,
+              "name": "sports"
+            },
+            {
+              "parent_id": 1000000,
+              "id": 1030000,
+              "name": "basketball"
+            },
+            {
+              "parent_id": 1030000,
+              "id": 1030100,
+              "name": "nba"
+            }
+          ],
+          "type": "nba",
+          "short_name": "Celtics",
+          "home_venue_id": 1544,
+          "slug": "boston-celtics",
+          "divisions": [
+            {
+              "display_name": "Eastern Conference",
+              "short_name": null,
+              "division_level": 1,
+              "display_type": "Conference",
+              "taxonomy_id": 1030100,
+              "slug": null
+            },
+            {
+              "display_name": "Eastern - Atlantic",
+              "short_name": "Atlantic",
+              "division_level": 2,
+              "display_type": "Division",
+              "taxonomy_id": 1030100,
+              "slug": "eastern-atlantic"
+            }
+          ],
+          "home_team": true,
+          "name": "Boston Celtics",
+          "url": "https://seatgeek.com/boston-celtics-tickets",
+          "image_attribution": "https://commons.wikimedia.org/wiki/Category:2013%E2%80%9314_Boston_Celtics_season#/media/File:NBA_-_February_2014_-_Celtics_vs_Spurs_-_TD_Garden_-_2.JPG"
+        },
+        {
+          "image": "https://chairnerd.global.ssl.fastly.net/images/performers-landscape/sacramento-kings-f520a8/2112/huge.jpg",
+          "images": {
+            "huge": "https://chairnerd.global.ssl.fastly.net/images/performers-landscape/sacramento-kings-f520a8/2112/huge.jpg"
+          },
+          "has_upcoming_events": true,
+          "id": 2112,
+          "away_team": true,
+          "stats": {
+            "event_count": 67
+          },
+          "image_license": null,
+          "score": 0.635549,
+          "taxonomies": [
+            {
+              "parent_id": null,
+              "id": 1000000,
+              "name": "sports"
+            },
+            {
+              "parent_id": 1000000,
+              "id": 1030000,
+              "name": "basketball"
+            },
+            {
+              "parent_id": 1030000,
+              "id": 1030100,
+              "name": "nba"
+            }
+          ],
+          "type": "nba",
+          "short_name": "Kings",
+          "home_venue_id": 177304,
+          "slug": "sacramento-kings",
+          "divisions": [
+            {
+              "display_name": "Western Conference",
+              "short_name": null,
+              "division_level": 1,
+              "display_type": "Conference",
+              "taxonomy_id": 1030100,
+              "slug": null
+            },
+            {
+              "display_name": "Western - Pacific",
+              "short_name": "Pacific",
+              "division_level": 2,
+              "display_type": "Division",
+              "taxonomy_id": 1030100,
+              "slug": "western-pacific"
+            }
+          ],
+          "name": "Sacramento Kings",
+          "url": "https://seatgeek.com/sacramento-kings-tickets",
+          "image_attribution": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleep_Train_Arena_December_2013.jpg"
+        }
+      ],
+      "url": "https://seatgeek.com/kings-at-celtics-tickets/12-2-2016-boston-massachusetts-td-garden/nba/3475712",
+      "created_at": "2016-08-12T00:00:00",
+      "venue": {
+        "city": "Boston",
+        "name": "TD Garden",
+        "extended_address": "Boston, MA 02114",
+        "url": "https://seatgeek.com/venues/td-garden/tickets",
+        "country": "US",
+        "display_location": "Boston, MA",
+        "links": [],
+        "slug": "td-garden",
+        "state": "MA",
+        "score": 0.853137,
+        "postal_code": "02114",
+        "location": {
+          "lat": 42.3653,
+          "lon": -71.0618
+        },
+        "address": "100 Legends Way",
+        "timezone": "America/New_York",
+        "id": 1544
+      },
+      "short_title": "Kings at Celtics",
+      "datetime_utc": "2016-12-03T00:30:00",
+      "datetime_tbd": false
+    },
+    {
+      "links": [],
+      "id": 3475688,
+      "stats": {
+        "listing_count": 3998,
+        "average_price": 92,
+        "lowest_price_good_deals": 26,
+        "lowest_price": 26,
+        "highest_price": 5544
+      },
+      "title": "Utah Jazz at Boston Celtics",
+      "announce_date": "2016-08-12T00:00:00",
+      "score": 0.782529,
+      "date_tbd": false,
+      "type": "nba",
+      "datetime_local": "2017-01-03T19:30:00",
+      "visible_until_utc": "2017-01-04T04:30:00",
+      "time_tbd": false,
+      "taxonomies": [
+        {
+          "parent_id": null,
+          "id": 1000000,
+          "name": "sports"
+        },
+        {
+          "parent_id": 1000000,
+          "id": 1030000,
+          "name": "basketball"
+        },
+        {
+          "parent_id": 1030000,
+          "id": 1030100,
+          "name": "nba"
+        }
+      ],
+      "performers": [
+        {
+          "image": "https://chairnerd.global.ssl.fastly.net/images/performers-landscape/boston-celtics-4d3c16/2088/huge.jpg",
+          "primary": true,
+          "images": {
+            "huge": "https://chairnerd.global.ssl.fastly.net/images/performers-landscape/boston-celtics-4d3c16/2088/huge.jpg"
+          },
+          "has_upcoming_events": true,
+          "id": 2088,
+          "stats": {
+            "event_count": 67
+          },
+          "image_license": null,
+          "score": 0.742893,
+          "taxonomies": [
+            {
+              "parent_id": null,
+              "id": 1000000,
+              "name": "sports"
+            },
+            {
+              "parent_id": 1000000,
+              "id": 1030000,
+              "name": "basketball"
+            },
+            {
+              "parent_id": 1030000,
+              "id": 1030100,
+              "name": "nba"
+            }
+          ],
+          "type": "nba",
+          "short_name": "Celtics",
+          "home_venue_id": 1544,
+          "slug": "boston-celtics",
+          "divisions": [
+            {
+              "display_name": "Eastern Conference",
+              "short_name": null,
+              "division_level": 1,
+              "display_type": "Conference",
+              "taxonomy_id": 1030100,
+              "slug": null
+            },
+            {
+              "display_name": "Eastern - Atlantic",
+              "short_name": "Atlantic",
+              "division_level": 2,
+              "display_type": "Division",
+              "taxonomy_id": 1030100,
+              "slug": "eastern-atlantic"
+            }
+          ],
+          "home_team": true,
+          "name": "Boston Celtics",
+          "url": "https://seatgeek.com/boston-celtics-tickets",
+          "image_attribution": "https://commons.wikimedia.org/wiki/Category:2013%E2%80%9314_Boston_Celtics_season#/media/File:NBA_-_February_2014_-_Celtics_vs_Spurs_-_TD_Garden_-_2.JPG"
+        },
+        {
+          "image": "https://chairnerd.global.ssl.fastly.net/images/performers-landscape/utah-jazz-aed93f/2107/huge.jpg",
+          "images": {
+            "huge": "https://chairnerd.global.ssl.fastly.net/images/performers-landscape/utah-jazz-aed93f/2107/huge.jpg"
+          },
+          "has_upcoming_events": true,
+          "id": 2107,
+          "away_team": true,
+          "stats": {
+            "event_count": 66
+          },
+          "image_license": null,
+          "score": 0.614748,
+          "taxonomies": [
+            {
+              "parent_id": null,
+              "id": 1000000,
+              "name": "sports"
+            },
+            {
+              "parent_id": 1000000,
+              "id": 1030000,
+              "name": "basketball"
+            },
+            {
+              "parent_id": 1030000,
+              "id": 1030100,
+              "name": "nba"
+            }
+          ],
+          "type": "nba",
+          "short_name": "Jazz",
+          "home_venue_id": 188,
+          "slug": "utah-jazz",
+          "divisions": [
+            {
+              "display_name": "Western Conference",
+              "short_name": null,
+              "division_level": 1,
+              "display_type": "Conference",
+              "taxonomy_id": 1030100,
+              "slug": null
+            },
+            {
+              "display_name": "Western - Northwest",
+              "short_name": "Northwest",
+              "division_level": 2,
+              "display_type": "Division",
+              "taxonomy_id": 1030100,
+              "slug": "western-northwest"
+            }
+          ],
+          "name": "Utah Jazz",
+          "url": "https://seatgeek.com/utah-jazz-tickets",
+          "image_attribution": "https://www.flickr.com/photos/philliecasablanca/16753742597/in/photolist-rwtiYZ-saYm98-seZ1aa-sb3s9H-qnZ2ig-qzLX4B-pVcrYd-pVcsdb-qzD7S3-qzD8aN-qzD7Qu-pVcsoG-pSQVDY-qzK8fp-nujzcC-m1dZ4F-hR7VgQ-hR7jnx-hR7Uth-jrx2Gr-eXH3we-eXUrFo-ddNQ5L-ddNNAa-bX5NTG-bX5N2G-bX5P7J-bX5Pih-bX5Nw1-bX5NhG-bX5NHo-bX5MP1-bX5MyC-bX5Mjd-bRqdv2-bGJHXn-btPVSW-btPVvf-btPVXU-bxf9SD-aNYSWr-9PVoeP-9esCk4-8DYzjz-7Ynwgb-75u8AP-6KaHfE-6icUST-5Uwgwd-5zTLxT"
+        }
+      ],
+      "url": "https://seatgeek.com/jazz-at-celtics-tickets/1-3-2017-boston-massachusetts-td-garden/nba/3475688",
+      "created_at": "2016-08-12T00:00:00",
+      "venue": {
+        "city": "Boston",
+        "name": "TD Garden",
+        "extended_address": "Boston, MA 02114",
+        "url": "https://seatgeek.com/venues/td-garden/tickets",
+        "country": "US",
+        "display_location": "Boston, MA",
+        "links": [],
+        "slug": "td-garden",
+        "state": "MA",
+        "score": 0.853137,
+        "postal_code": "02114",
+        "location": {
+          "lat": 42.3653,
+          "lon": -71.0618
+        },
+        "address": "100 Legends Way",
+        "timezone": "America/New_York",
+        "id": 1544
+      },
+      "short_title": "Jazz at Celtics",
+      "datetime_utc": "2017-01-04T00:30:00",
+      "datetime_tbd": false
+    }
+  ]
+}

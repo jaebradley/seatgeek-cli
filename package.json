@@ -19,7 +19,9 @@
     "cli-table2": "0.2.0",
     "colors": "1.1.2 ",
     "node-emoji": "1.3.0 ",
-    "seatgeek-client": "0.0.2"
+    "seatgeek-client": "0.1.1",
+    "moment": "2.17.0",
+    "immutable": "^3.8.1"
   },
   "devDependencies": {
     "chai": "3.5.0",
