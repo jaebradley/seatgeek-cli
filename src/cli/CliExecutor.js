@@ -9,11 +9,8 @@ export default class CliExecutor {
   static execute() {
     program.version('0.0.1');
 
-    program.description('An application for SeatGeek Events')
-           .option('-c', '--city', 'City')
-           .option('-s', '--state', 'State');
-
-    CliExecutor.action(program.city, program.state);
+    program.command('events [city] [state]')
+           .action((city, state) => CliExecutor.action(city, state));
 
     program.parse(process.argv);
 

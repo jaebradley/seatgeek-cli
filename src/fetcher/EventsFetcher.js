@@ -26,7 +26,7 @@ export default class EventsFetcher {
         option: SortOption.SCORE,
         direction: SortDirection.DESCENDING,
       },
-      perPage: 100,
+      perPage: 50,
       page: 1,
     };
     return SeatGeekClient.getEvents(query)
