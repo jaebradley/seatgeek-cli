@@ -2,6 +2,8 @@
 
 import Table from 'cli-table2';
 
+import EventsFetcher from '../../fetcher/EventsFetcher';
+
 export default class EventDetailsTableBuilder {
   static getHeaders() {
     return ['Type', 'Title', 'Good Deal Min. Price', 'Popularity',
@@ -9,7 +11,12 @@ export default class EventDetailsTableBuilder {
             'Max. Price'];
   }
 
-  static buildTable(details) {
+  static buildTable(search) {
+    let details = EventsFetcher.fetchEventsByPopularityOrderedByLowestPriceGoodDeals(search);
+    console.log(EventDetailsTableBuilder.buildTableFromEventDetails(details));
+  }
+
+  static buildTableFromEventDetails(details) {
     let table = new Table({
       head: EventDetailsTableBuilder.getHeaders(),
     });

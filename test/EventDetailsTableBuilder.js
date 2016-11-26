@@ -53,7 +53,7 @@ describe('Test EventsFetcher', function() {
   });
 
   it('tests table building', function() {
-    let table = EventDetailsTableBuilder.buildTable([eventDetails1]);
+    let table = EventDetailsTableBuilder.buildTableFromEventDetails([eventDetails1]);
     console.log(table.toString());
   });
 });
