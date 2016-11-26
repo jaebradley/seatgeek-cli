@@ -6,7 +6,7 @@ import EventsFetcher from '../../fetcher/EventsFetcher';
 
 export default class EventDetailsTableBuilder {
   static getHeaders() {
-    return ['Type', 'Title', 'Good Deal Min. Price', 'Popularity',
+    return ['Type', 'Title', 'Good Deal Min. Price', 'Pop.',
             'Start', 'Venue', 'Avg. Price', 'Min. Price',
             'Max. Price'];
   }
