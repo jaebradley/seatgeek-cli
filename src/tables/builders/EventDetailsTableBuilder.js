@@ -38,13 +38,13 @@ export default class EventDetailsTableBuilder {
     return [
       detail.type,
       detail.title,
-      detail.lowestPriceGoodDeals,
-      detail.score,
+      `$${detail.lowestPriceGoodDeals.toLocaleString()}`,
+      (detail.score * 100).toFixed(1),
       detail.localDatetime,
       `${detail.venue.name} ${detail.venue.streetAddress} ${detail.venue.extendedAddress}`,
-      detail.averagePrice,
-      detail.lowestPrice,
-      detail.highestPrice,
+      `$${detail.averagePrice.toLocaleString()}`,
+      `$${detail.lowestPrice.toLocaleString()}`,
+      `$${detail.highestPrice.toLocaleString()}`,
     ];
   }
 };
