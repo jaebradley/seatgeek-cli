@@ -4,9 +4,9 @@ import Table from 'cli-table2';
 
 export default class EventDetailsTableBuilder {
   static getHeaders() {
-    return ['Type', 'Title', 'Lowest Price Good Deals', 'Popularity',
-            'Start Time', 'Venue', 'Average Price', 'Lowest Price',
-            'Highest Price'];
+    return ['Type', 'Title', 'Good Deal Min. Price', 'Popularity',
+            'Start', 'Venue', 'Avg. Price', 'Min. Price',
+            'Max. Price'];
   }
 
   static buildTable(details) {
