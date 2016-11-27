@@ -1,9 +1,9 @@
 'use es6';
 
 import {Record} from 'immutable';
-
 import moment from 'moment';
 
+import Constants from './Constants';
 import VenueDetails from './VenueDetails';
 
 let defaults = {
