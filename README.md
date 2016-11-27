@@ -1,8 +1,26 @@
 # SeatGeek Command Line Interface
 [![Build Status](https://travis-ci.org/jaebradley/seatgeek-cli.svg?branch=add-other-options)](https://travis-ci.org/jaebradley/seatgeek-cli)
+[![Coverage Status](https://coveralls.io/repos/github/jaebradley/seatgeek-cli/badge.svg?branch=master)](https://coveralls.io/github/jaebradley/seatgeek-cli?branch=master)
+
+## Background
+As a sucker for a ~~good~~ cheap deal, I ♥️ SeatGeek. 
+
+Unfortunately, the [SeatGeek API](http://platform.seatgeek.com/) doesn't currently release deal score data about events. The only information they release is a `lowest_price_good_deals` field on the `event` response object (and this field is not even documented in their official documentation).
+
+What this command line tool does is 
+
+1. Return the top fifty events (filtered on city, state, etc.) ordered by their popularity.
+2. Then sorts these events by their `lowest_price_good_deals` field, from lowest to highest.
+
+The idea is that this result set, while not perfect, should return the most popular events with the best deals.
+
+Popularity acts as a proxy for quality and low prices for good deals act as an indicator for low prices for _great_ deals (I know, I know, not always true).
+
+One final note: I make __no__ guarantees about performance and reliability. If you see problems, feel free to create an issue, and I will do my best to address these issues as they come in.
 
 ## Install
-`npm install seatgeek-cli`
+* `npm install seatgeek-cli`
+* [**NPMJS**](https://www.npmjs.com/package/seatgeek-cli)
 
 ## Command Line Usage
 * `sg` (**Required Command line Argument**)
