@@ -8,6 +8,7 @@ As a sucker for a ~~good~~ cheap deal, I ♥️ SeatGeek.
 Unfortunately, the [SeatGeek API](http://platform.seatgeek.com/) doesn't currently release deal score data about events. The only information they release is a `lowest_price_good_deals` field on the `event` response object (and this field is not even documented in their official documentation).
 
 What this command line tool does is 
+
 1. Return the top fifty events (filtered on city, state, etc.) ordered by their popularity.
 2. Then sorts these events by their `lowest_price_good_deals` field, from lowest to highest.
 
