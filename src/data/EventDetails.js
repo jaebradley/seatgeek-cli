@@ -2,8 +2,7 @@
 
 import {Record} from 'immutable';
 
-import moment from 'moment';
-
+import Constants from './Constants';
 import VenueDetails from './VenueDetails';
 
 let defaults = {
@@ -14,8 +13,7 @@ let defaults = {
   highestPrice: 0,
   title: '',
   score: 0,
-  localDatetime: moment.utc()
-                       .format('YYYY-MM-DDTHH:mm:ss'),
+  localDatetime: Constants.getDatetime(),
   venue: new VenueDetails(),
   type: '',
 }
