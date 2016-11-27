@@ -2,7 +2,8 @@
 [![Build Status](https://travis-ci.org/jaebradley/seatgeek-cli.svg?branch=add-other-options)](https://travis-ci.org/jaebradley/seatgeek-cli)
 
 ## Install
-`npm install seatgeek-cli`
+* `npm install seatgeek-cli`
+* [**NPMJS**](https://www.npmjs.com/package/seatgeek-cli)
 
 ## Command Line Usage
 * `sg` (**Required Command line Argument**)
