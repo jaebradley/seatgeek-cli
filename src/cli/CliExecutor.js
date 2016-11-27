@@ -45,6 +45,7 @@ export default class CliExecutor {
       cityName: cityName,
       stateCode: stateCode,
       datetime: datetime,
+      type: type,
     });
   }
 }
