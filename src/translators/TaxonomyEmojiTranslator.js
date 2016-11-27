@@ -51,7 +51,7 @@ export default class TaxonomyEmojiTranslator {
     map = map.set(Taxonomy.ANIMAL_SPORTS, emoji.get('horse_racing'));
     map = map.set(Taxonomy.EXTREME_SPORTS, emoji.get('snowboarder'));
     map = map.set(Taxonomy.OLYMPIC_SPORTS, emoji.get('globe_with_meridians'));
-    map = map.set(Taxonomy.CONCERTS, emoji.get('musical_score'));
+    map = map.set(Taxonomy.CONCERTS, emoji.get('musical_keyboard'));
     map = map.set(Taxonomy.THEATER, emoji.get('performing_arts'));
     map = map.set(Taxonomy.COMEDY, emoji.get('laughing'));
     map = map.set(Taxonomy.FILM, emoji.get('movie_camera'));
