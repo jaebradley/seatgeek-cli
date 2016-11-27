@@ -15,6 +15,8 @@ The idea is that this result set, while not perfect, should return the most popu
 
 Popularity acts as a proxy for quality and low prices for good deals act as an indicator for low prices for _great_ deals (I know, I know, not always true).
 
+One final note: I make __no__ guarantees about performance and reliability. If you see problems, feel free to create an issue, and I will do my best to address these issues as they come in.
+
 ## Install
 * `npm install seatgeek-cli`
 * [**NPMJS**](https://www.npmjs.com/package/seatgeek-cli)
