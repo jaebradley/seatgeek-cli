@@ -15,7 +15,7 @@ export default class CliExecutor {
            .option('-d', '--datetime [datetime]')
            .option('-t', '--type [type]')
            .action(function() {
-             CliExecutor.action(CliExecutor.parseRawArgs(program.rawArgs));
+             EventDetailsTableBuilder.buildTable(CliExecutor.parseRawArgs(program.rawArgs));
            });
 
     program.parse(process.argv);
@@ -47,9 +47,5 @@ export default class CliExecutor {
       stateCode: stateCode,
       datetime: datetime,
     });
-  }
-
-  static action(search) {
-    EventDetailsTableBuilder.buildTable(search);
   }
 }
