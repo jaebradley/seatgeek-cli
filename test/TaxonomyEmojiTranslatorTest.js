@@ -11,9 +11,9 @@ describe('Test Taxonomy Emoji Translator', function() {
     let taxonomy = TaxonomyEmojiTranslator.getTaxonomy('indycar');
     expect(taxonomy).to.eql(Taxonomy.INDYCAR);
   });
-  
+
   it('tests taxonomy emoji translation', function() {
-    let translatedEmoji = TaxonomyEmojiTranslator.translate('indycar');
+    let translatedEmoji = TaxonomyEmojiTranslator.translate('nascar_nationwide');
     expect(translatedEmoji).to.eql(emoji.get('checkered_flag'));
   });
 });

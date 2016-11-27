@@ -34,7 +34,7 @@ export default class TaxonomyEmojiTranslator {
     for (let i = 0; i < Taxonomy.enumValues.length; i++) {
       let taxonomyValue = Taxonomy.enumValues[i];
       if (taxonomy.parent_id == taxonomyValue.id) {
-        TaxonomyEmojiTranslator.getEmoji(taxonomyValue, taxonomyMap);
+        return TaxonomyEmojiTranslator.getEmoji(taxonomyValue, taxonomyMap);
       }
     }
   }
