@@ -4,6 +4,7 @@ import program from 'commander';
 import moment from 'moment';
 
 import EventsSearch from '../data/EventsSearch';
+import Constants from '../data/Constants';
 import EventDetailsTableBuilder from '../tables/builders/EventDetailsTableBuilder';
 
 export default class CliExecutor {
@@ -25,9 +26,7 @@ export default class CliExecutor {
   static parseRawArgs(args) {
     let cityName = undefined;
     let stateCode = undefined;
-    let datetime = moment.utc()
-                    .add(3, 'months')
-                    .format('YYYY-MM-DDTHH:mm:ss');
+    let datetime = Constants.getDatetime();
     let type = undefined;
     for (let i = 0; i < args.length; i++) {
       let arg = args[i];
