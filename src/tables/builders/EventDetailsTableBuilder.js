@@ -7,9 +7,8 @@ import EventsFetcher from '../../fetcher/EventsFetcher';
 
 export default class EventDetailsTableBuilder {
   static getHeaders() {
-    return ['Type', 'Title', 'Good Deal Min. Price', 'Pop.',
-            'Start', 'Venue', 'Avg. Price', 'Min. Price',
-            'Max. Price'];
+    return ['Type', 'Title', 'Good Deal\nMin. Price', 'Pop.',
+            'Start', 'Venue', 'Avg.', 'Min.', 'Max.'];
   }
 
   static buildTable(search) {
@@ -21,6 +20,7 @@ export default class EventDetailsTableBuilder {
     let table = new Table({
       head: EventDetailsTableBuilder.getHeaders(),
       wordWrap: true,
+      colWidths: [null, 20],
     });
 
     details.forEach(function(detail) {
@@ -37,7 +37,7 @@ export default class EventDetailsTableBuilder {
       `$${detail.lowestPriceGoodDeals.toLocaleString()}`,
       (detail.score * 100).toFixed(1),
       moment(detail.localDatetime, 'YYYY-MM-DDTHH:mm:ss').format('M/D/YY h:mm A'),
-      `${detail.venue.name} ${detail.venue.streetAddress} ${detail.venue.extendedAddress}`,
+      `${detail.venue.name}\n${detail.venue.streetAddress}\n${detail.venue.extendedAddress}`,
       `$${detail.averagePrice.toLocaleString()}`,
       `$${detail.lowestPrice.toLocaleString()}`,
       `$${detail.highestPrice.toLocaleString()}`,
