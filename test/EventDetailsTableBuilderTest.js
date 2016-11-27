@@ -14,7 +14,7 @@ describe('Test EventsFetcher', function() {
   let highestPrice1 = 5;
   let title1 = 'jae';
   let score1 = 6;
-  let localDatetime1 = 'bradley';
+  let localDatetime1 = '2016-12-17T20:00:00';
   let type1 = 'baebae';
   let venueName1 = 'jadley';
   let extendedAddress1 = '1234';
@@ -41,13 +41,13 @@ describe('Test EventsFetcher', function() {
     let expectedRow = [
       type1,
       title1,
-      lowestPriceGoodDeals1,
-      score1,
-      localDatetime1,
-      `${venueName1} ${streetAddress1} ${extendedAddress1}`,
-      averagePrice1,
-      lowestPrice1,
-      highestPrice1,
+      `$${lowestPriceGoodDeals1}`,
+      '600.0',
+      '12/17/16 8:00 PM',
+      'jadley\n5678\n1234',
+      `$${averagePrice1}`,
+      `$${lowestPrice1}`,
+      `$${highestPrice1}`,
     ];
     expect(row).to.eql(expectedRow);
   });
