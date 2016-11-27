@@ -6,6 +6,10 @@ export default class Constants {
   static getDatetime() {
     return moment.utc()
                  .add(3, 'months')
-                 .format('YYYY-MM-DDTHH:mm:ss');
+                 .format(Constants.getDatetimeFormat());
+  }
+
+  static getDatetimeFormat() {
+    return 'YYYY-MM-DDTHH:mm:ss';
   }
 }
