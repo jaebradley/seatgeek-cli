@@ -42,7 +42,7 @@ export default class TaxonomyEmojiTranslator {
     map = map.set(Taxonomy.BASEBALL, emoji.get('baseball'));
     map = map.set(Taxonomy.BASKETBALL, emoji.get('basketball'));
     map = map.set(Taxonomy.FOOTBALL, emoji.get('football'));
-    map = map.set(Taxonomy.HOCKEY, emoji.get('snowflake'));
+    map = map.set(Taxonomy.HOCKEY, emoji.get('muscle'));
     map = map.set(Taxonomy.SOCCER, emoji.get('soccer'));
     map = map.set(Taxonomy.AUTO_RACING, emoji.get('checkered_flag'));
     map = map.set(Taxonomy.GOLF, emoji.get('golf'));
