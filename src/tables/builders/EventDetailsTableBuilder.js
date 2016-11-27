@@ -1,18 +1,15 @@
 'use es6';
 
 import Table from 'cli-table2';
+import moment from 'moment';
 
 import EventsFetcher from '../../fetcher/EventsFetcher';
+import TaxonomyEmojiTranslator from '../../translators/TaxonomyEmojiTranslator';
 
 export default class EventDetailsTableBuilder {
   static getHeaders() {
-    return ['Type', 'Title', 'Good Deal Min. Price', 'Popularity',
-            'Start', 'Venue', 'Avg. Price', 'Min. Price',
-            'Max. Price'];
-  }
-
-  static getColumnWidths() {
-    return [10, 20, 10, 20, 20, 30, 10, 10, 10];
+    return ['Type', 'Title', 'Good Deal\nMin. Price', 'Pop.',
+            'Start', 'Venue', 'Avg.', 'Min.', 'Max.'];
   }
 
   static buildTable(search) {
@@ -23,8 +20,8 @@ export default class EventDetailsTableBuilder {
   static buildTableFromEventDetails(details) {
     let table = new Table({
       head: EventDetailsTableBuilder.getHeaders(),
-      colWidths: EventDetailsTableBuilder.getColumnWidths(),
-      wordWrap:true,
+      wordWrap: true,
+      colWidths: [null, 20],
     });
 
     details.forEach(function(detail) {
@@ -36,15 +33,15 @@ export default class EventDetailsTableBuilder {
 
   static buildRow(detail) {
     return [
-      detail.type,
+      TaxonomyEmojiTranslator.translate(detail.type),
       detail.title,
-      detail.lowestPriceGoodDeals,
-      detail.score,
-      detail.localDatetime,
-      `${detail.venue.name} ${detail.venue.streetAddress} ${detail.venue.extendedAddress}`,
-      detail.averagePrice,
-      detail.lowestPrice,
-      detail.highestPrice,
+      `$${detail.lowestPriceGoodDeals.toLocaleString()}`,
+      (detail.score * 100).toFixed(1),
+      moment(detail.localDatetime, 'YYYY-MM-DDTHH:mm:ss').format('M/D/YY h:mm A'),
+      `${detail.venue.name}\n${detail.venue.streetAddress}\n${detail.venue.extendedAddress}`,
+      `$${detail.averagePrice.toLocaleString()}`,
+      `$${detail.lowestPrice.toLocaleString()}`,
+      `$${detail.highestPrice.toLocaleString()}`,
     ];
   }
 };
