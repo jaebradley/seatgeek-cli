@@ -18,8 +18,6 @@ export default class TaxonomyEmojiTranslator {
         return taxonomy;
       }
     }
-
-    throw new ReferenceError('unknown slug');
   }
 
   static getEmoji(taxonomy, taxonomyMap) {

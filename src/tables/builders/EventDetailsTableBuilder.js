@@ -4,6 +4,7 @@ import Table from 'cli-table2';
 import moment from 'moment';
 
 import EventsFetcher from '../../fetcher/EventsFetcher';
+import TaxonomyEmojiTranslator from '../../translators/TaxonomyEmojiTranslator';
 
 export default class EventDetailsTableBuilder {
   static getHeaders() {
@@ -32,7 +33,7 @@ export default class EventDetailsTableBuilder {
 
   static buildRow(detail) {
     return [
-      detail.type,
+      TaxonomyEmojiTranslator.translate(detail.type),
       detail.title,
       `$${detail.lowestPriceGoodDeals.toLocaleString()}`,
       (detail.score * 100).toFixed(1),

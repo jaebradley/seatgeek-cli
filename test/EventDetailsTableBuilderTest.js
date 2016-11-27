@@ -5,6 +5,7 @@ import {expect} from 'chai';
 import EventDetailsTableBuilder from '../src/tables/builders/EventDetailsTableBuilder';
 import EventDetails from '../src/data/EventDetails';
 import VenueDetails from '../src/data/VenueDetails';
+import emoji from 'node-emoji';
 
 describe('Test EventsFetcher', function() {
   let id1 = 1;
@@ -39,7 +40,7 @@ describe('Test EventsFetcher', function() {
   it('tests row building', function() {
     let row = EventDetailsTableBuilder.buildRow(eventDetails1);
     let expectedRow = [
-      type1,
+      emoji.get('confused'),
       title1,
       `$${lowestPriceGoodDeals1}`,
       '600.0',
