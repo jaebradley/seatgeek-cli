@@ -56,6 +56,6 @@ describe('Tests Events Translator', function() {
       venue: expectedVenueDetails,
       type: type1,
     });
-    expect(EventsTranslator.createEventDetails(event1)).to.eql(expectedEventDetails.toJS());
+    expect(expectedEventDetails).to.eql(EventsTranslator.createEventDetails(event1));
   });
 });
