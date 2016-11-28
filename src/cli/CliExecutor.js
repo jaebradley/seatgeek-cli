@@ -28,7 +28,7 @@ export default class CliExecutor {
     let stateCode = undefined;
     let datetime = Constants.getDatetime();
     let type = undefined;
-    for (let i = 0; i < args.length; i++) {
+    for (let i = 0; i < args.length - 1; i++) {
       let arg = args[i];
       let nextArg = args[i + 1];
       if ((arg == '-c') || (arg == '--city')) {

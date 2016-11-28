@@ -1,9 +1,9 @@
 'use es6';
 
 import {Record} from 'immutable';
-
 import moment from 'moment';
 
+import Constants from './Constants';
 import VenueDetails from './VenueDetails';
 
 let defaults = {
@@ -15,7 +15,7 @@ let defaults = {
   title: '',
   score: 0,
   localDatetime: moment.utc()
-                       .format('YYYY-MM-DDTHH:mm:ss'),
+                       .format(Constants.getDatetimeFormat()),
   venue: new VenueDetails(),
   type: '',
 }
