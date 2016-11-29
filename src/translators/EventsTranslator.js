@@ -18,7 +18,7 @@ export default class EventsTranslator {
     translation = translation.sortBy(function(value, key) {
       return value.lowestPriceGoodDeals;
     });
-    
+
     return translation;
   }
 
