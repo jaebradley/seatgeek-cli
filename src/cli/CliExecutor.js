@@ -41,6 +41,7 @@ export default class CliExecutor {
         type = nextArg;
       }
     }
+
     return new EventsSearch({
       cityName: cityName,
       stateCode: stateCode,

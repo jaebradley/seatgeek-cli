@@ -34,7 +34,7 @@ export default class EventsFetcher {
     if (typeof search.type !== 'undefined') {
       query['taxonomies'] = [{
         taxonomy: TaxonomyEmojiTranslator.getTaxonomy(search.type),
-        field: TaxonomyField.ID,
+        field: TaxonomyField.NAME,
       }];
     }
 
