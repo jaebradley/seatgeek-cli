@@ -7,14 +7,18 @@ import EventsFetcher from '../../fetcher/EventsFetcher';
 import TaxonomyEmojiTranslator from '../../translators/TaxonomyEmojiTranslator';
 
 export default class EventDetailsTableBuilder {
+  constructor() {
+    this.fetcher = new EventsFetcher();
+  }
+
+  buildTable(search) {
+    return this.fetcher.fetchEventsByPopularityOrderedByLowestPriceGoodDeals(search)
+                       .then(details => console.log(EventDetailsTableBuilder.buildTableFromEventDetails(details).toString()));
+  }
+
   static getHeaders() {
     return ['Type', 'Title', 'Good Deal\nMin. Price', 'Pop.',
             'Start', 'Venue', 'Avg.', 'Min.', 'Max.'];
-  }
-
-  static buildTable(search) {
-    return EventsFetcher.fetchEventsByPopularityOrderedByLowestPriceGoodDeals(search)
-                        .then(details => console.log(EventDetailsTableBuilder.buildTableFromEventDetails(details).toString()));
   }
 
   static buildTableFromEventDetails(details) {

@@ -1,5 +1,7 @@
 'use es6';
 
+import {Map} from 'immutable';
+
 import program from 'commander';
 import moment from 'moment';
 import emoji from 'node-emoji';
@@ -9,27 +11,27 @@ import Constants from '../data/Constants';
 import EventDetailsTableBuilder from '../tables/builders/EventDetailsTableBuilder';
 
 export default class CliExecutor {
-  static execute() {
-    try {
-      program.version('0.0.1');
+  constructor() {
+    this.builder = new EventDetailsTableBuilder();
+  }
 
-      program.option('-c', '--city [city]')
-      .option('-s', '--state [state]')
-      .option('-d', '--datetime [datetime]')
-      .option('-t', '--type [type]')
-      .action(function() {
-        EventDetailsTableBuilder.buildTable(CliExecutor.parseRawArgs(program.rawArgs));
-      });
+  execute() {
+    program.version('0.0.1');
 
-      program.parse(process.argv);
+    program.option('-c', '--city [city]')
+    .option('-s', '--state [state]')
+    .option('-d', '--datetime [datetime]')
+    .option('-t', '--type [type]')
+    .action(() => this.builder.buildTable(CliExecutor.parseRawArgs(program.rawArgs)));
+
+    program.parse(process.argv);
+
     } catch (e) {
       let disappointedEmoji = emoji.get('disappointed');
       let angryEmoji = emoji.get('angry');
       let rageEmoji = emoji.get('rage');
       console.log(`${disappointedEmoji} ${angryEmoji} ${rageEmoji} Whoops! Unknown error. Please get mad at me here: https://github.com/jaebradley/seatgeek-cli/issues ${rageEmoji} ${angryEmoji} ${disappointedEmoji}`);
     }
-
-  }
 
   static parseRawArgs(args) {
     let cityName = undefined;
@@ -50,11 +52,19 @@ export default class CliExecutor {
       }
     }
 
-    return new EventsSearch({
-      cityName: cityName,
-      stateCode: stateCode,
-      datetime: datetime,
-      type: type,
-    });
+    let variables = Map({datetime: datetime});
+    if (typeof cityName !== 'undefined') {
+      variables = variables.set('cityName', cityName);
+    }
+
+    if (typeof stateCode !== 'undefined') {
+      variables = variables.set('stateCode', stateCode);
+    }
+
+    if (typeof type !== 'undefined') {
+      variables = variables.set('type', type);
+    }
+
+    return variables;
   }
 }

@@ -3,4 +3,5 @@
 
 import CliExecutor from './cli/CliExecutor';
 
-CliExecutor.execute();
+let cli = new CliExecutor();
+cli.execute();
