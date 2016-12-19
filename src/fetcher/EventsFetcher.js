@@ -23,32 +23,31 @@ export default class EventsFetcher {
       page: 1
     });
 
-    if (typeof search.cityName !== 'undefined') {
-      query.set('cityName', search.cityName);
+    if (typeof search.get('cityName') !== 'undefined') {
+      query = query.set('cityName', search.get('cityName'));
     }
 
-    if (typeof search.stateCode !== 'undefined') {
-      query.set('stateCode', search.stateCode);
+    if (typeof search.get('stateCode') !== 'undefined') {
+      query = query.set('stateCode', search.get('stateCode'));
     }
 
-    if (typeof search.datetime !== 'undefined') {
+    if (typeof search.get('datetime') !== 'undefined') {
       let filterOption = Map({
         option: FilterOption.DATETIME_UTC,
         operator: Operator.LESS_THAN,
-        value: search.datetime
+        value: search.get('datetime')
       });
-      query.set('filters', List.of(filterOption));
+      query = query.set('filters', List.of(filterOption));
     }
 
-    if (typeof search.type !== 'undefined') {
+    if (typeof search.get('type') !== 'undefined') {
       let taxonomies = Map({
-        taxonomy: TaxonomyEmojiTranslator.getTaxonomy(search.type),
+        taxonomy: TaxonomyEmojiTranslator.getTaxonomy(search.get('type')),
         field: TaxonomyField.NAME
       });
-      query.set('taxonomies', List.of(taxonomies));
+      query = query.set('taxonomies', List.of(taxonomies));
     }
 
-    console.log(query);
     return this.client.getEvents(query.toJS())
                       .then(events => EventsTranslator.translate(events.events));
   }
