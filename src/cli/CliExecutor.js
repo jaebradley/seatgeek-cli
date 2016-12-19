@@ -1,5 +1,7 @@
 'use es6';
 
+import {Map} from 'immutable';
+
 import program from 'commander';
 import moment from 'moment';
 import emoji from 'node-emoji';
@@ -53,11 +55,19 @@ export default class CliExecutor {
       }
     }
 
-    return new EventsSearch({
-      cityName: cityName,
-      stateCode: stateCode,
-      datetime: datetime,
-      type: type,
-    });
+    let variables = Map({datetime: datetime});
+    if (typeof cityName !== 'undefined') {
+      variables = variables.set('cityName', cityName);
+    }
+
+    if (typeof stateCode !== 'undefined') {
+      variables = variables.set('stateCode', stateCode);
+    }
+
+    if (typeof type !== 'undefined') {
+      variables = variables.set('type', type);
+    }
+
+    return variables;
   }
 }

@@ -1,9 +1,10 @@
 'use es6';
 
+import {Map} from 'immutable';
+
 import {expect} from 'chai';
 
 import CliExecutor from '../src/cli/CliExecutor';
-import EventsSearch from '../src/data/EventsSearch';
 
 describe('Tests Cli Executor', function() {
   let cityName = 'bae';
@@ -21,7 +22,7 @@ describe('Tests Cli Executor', function() {
                   '--datetime', datetime,
                   '--type', type];
 
-  let expectedResult = new EventsSearch({
+  let expectedResult = Map({
     cityName: cityName,
     stateCode: stateCode,
     datetime: datetime,
@@ -35,9 +36,9 @@ describe('Tests Cli Executor', function() {
     expect(emptyArgsResult.type).to.equal(undefined);
 
     let shortArgsResult = CliExecutor.parseRawArgs(shortArgs);
-    expect(shortArgsResult).to.eql(expectedResult);
+    expect(shortArgsResult.toJS()).to.eql(expectedResult.toJS());
 
     let longArgsResult = CliExecutor.parseRawArgs(longArgs);
-    expect(longArgsResult).to.eql(expectedResult);
+    expect(longArgsResult.toJS()).to.eql(expectedResult.toJS());
   });
 });
