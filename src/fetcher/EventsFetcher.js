@@ -13,13 +13,8 @@ export default class EventsFetcher {
 
   fetchEventsByPopularityOrderedByLowestPriceGoodDeals(search) {
     let query = {
-      venues: {
-        properties: {
-          cityName: search.cityName,
-          stateCode: search.stateCode,
-          countryCode: search.countryCode,
-        },
-      },
+      cityName: search.cityName,
+      stateCode: search.stateCode,
       filters: [
         {
           option: FilterOption.DATETIME_UTC,
