@@ -9,6 +9,9 @@ import Constants from '../data/Constants';
 import EventDetailsTableBuilder from '../tables/builders/EventDetailsTableBuilder';
 
 export default class CliExecutor {
+  constuctor() {
+    this.tableBuilder = new EventDetailsTableBuilder();
+  }
   static execute() {
     try {
       program.version('0.0.1');
@@ -18,7 +21,7 @@ export default class CliExecutor {
       .option('-d', '--datetime [datetime]')
       .option('-t', '--type [type]')
       .action(function() {
-        EventDetailsTableBuilder.buildTable(CliExecutor.parseRawArgs(program.rawArgs));
+        this.tableBuilder.buildTable(CliExecutor.parseRawArgs(program.rawArgs));
       });
 
       program.parse(process.argv);

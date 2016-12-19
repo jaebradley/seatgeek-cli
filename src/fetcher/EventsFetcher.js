@@ -7,7 +7,11 @@ import TaxonomyEmojiTranslator from '../translators/TaxonomyEmojiTranslator';
 
 export default class EventsFetcher {
 
-  static fetchEventsByPopularityOrderedByLowestPriceGoodDeals(search) {
+  constructor() {
+    this.client = new SeatGeekClient('MzUwNDE1NnwxNDgxNjA1ODM2')
+  }
+
+  fetchEventsByPopularityOrderedByLowestPriceGoodDeals(search) {
     let query = {
       venues: {
         properties: {
@@ -38,7 +42,7 @@ export default class EventsFetcher {
       }];
     }
 
-    return SeatGeekClient.getEvents(query)
-                         .then(events => EventsTranslator.translate(events.events));
+    return this.client.getEvents(query)
+                      .then(events => EventsTranslator.translate(events.events));
   }
 }
