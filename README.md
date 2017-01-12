@@ -1,6 +1,7 @@
 # SeatGeek Command Line Interface
 [![Build Status](https://travis-ci.org/jaebradley/seatgeek-cli.svg?branch=add-other-options)](https://travis-ci.org/jaebradley/seatgeek-cli)
 [![Coverage Status](https://coveralls.io/repos/github/jaebradley/seatgeek-cli/badge.svg?branch=master)](https://coveralls.io/github/jaebradley/seatgeek-cli?branch=master)
+[![npm version](https://badge.fury.io/js/seatgeek-cli.svg)](https://badge.fury.io/js/seatgeek-cli)
 
 ## Background
 As a sucker for a ~~good~~ cheap deal, I ♥️ SeatGeek. 
