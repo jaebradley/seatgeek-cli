@@ -14,7 +14,7 @@ export default class TaxonomyEmojiTranslator {
   static getTaxonomy(slug) {
     for (let i = 0; i < Taxonomy.enumValues.length; i++) {
       let taxonomy = Taxonomy.enumValues[i];
-      if (taxonomy.slug === slug) {
+      if (taxonomy.slug === slug.toLowerCase()) {
         return taxonomy;
       }
     }
