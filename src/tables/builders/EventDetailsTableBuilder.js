@@ -28,9 +28,7 @@ export default class EventDetailsTableBuilder {
       colWidths: [null, 20],
     });
 
-    details.forEach(function(detail) {
-      table.push(EventDetailsTableBuilder.buildRow(detail));
-    });
+    details.forEach(detail => table.push(EventDetailsTableBuilder.buildRow(detail)));
 
     return table;
   }
