@@ -1,6 +1,6 @@
 'use es6';
 
-import Table from 'cli-table2';
+import Table from 'cli-table3';
 import moment from 'moment';
 
 import EventsFetcher from '../../fetcher/EventsFetcher';
